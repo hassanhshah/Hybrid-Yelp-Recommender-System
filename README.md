@@ -2,7 +2,7 @@
 
 ## Description
 
-This project implements a hybrid recommendation system combining item-based collaborative filtering (CF) with a model-based approach using XGBoost. The goal is to predict Yelp ratings of businesses based on user reviews. The hybrid model aims to leverage the strengths of both approaches to provide accurate rating predictions.
+This project develops a hybrid recommendation system to predict Yelp business ratings based on user reviews, integrating item-based collaborative filtering (CF) and a model-based approach using XGBoost within the Apache Spark environment. This combination aims for higher accuracy by leveraging the strengths of both approaches to provide accurate rating predictions.
 
 ## Methodology
 
