@@ -44,9 +44,9 @@ The Yelp Open Dataset is utilized, comprising reviews, businesses, users, and ad
 
 To execute the hybrid recommendation system, use the following command:
 
-'''bash
+```console
 spark-submit HybridRecommendationSystem.py <folder_path> <test_file_name> <output_file_name>
-'''
+```
 
 ### Parameters:
 
