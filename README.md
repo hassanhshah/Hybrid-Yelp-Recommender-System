@@ -6,7 +6,7 @@ This project develops a hybrid recommender system to predict Yelp business ratin
 
 ## Methodology
 
-The recommendation system consists of two main components:
+The recommender system consists of two main components:
 
 - **Item-based Collaborative Filtering (CF):** This component calculates similarity scores between items (businesses) using Pearson similarity. It addresses cases such as new users or businesses not present in the training dataset through default rating mechanisms.
 - **Model-based Approach:** Utilizes XGBoost, a decision tree-based ensemble Machine Learning algorithm, to predict ratings. It considers various features from users and businesses, such as average stars, review counts, and additional attributes like "HasTV", "NoiseLevel", etc.
@@ -30,12 +30,12 @@ The final rating prediction is a weighted average of the outputs from these two 
 
 ## Dataset
 
-The Yelp Open Dataset is used in this project, providing a rich set of data including reviews, businesses, users, and more, suitable for developing and testing recommendation systems. To obtain the dataset:
+The Yelp Open Dataset is used in this project, providing a rich set of data including reviews, businesses, users, and more, suitable for developing and testing recommender systems. To obtain the dataset:
 
 1. Go to the Yelp Open Dataset page at https://www.yelp.com/dataset.
 2. Follow the instructions for accessing the data. You may need to agree to certain terms of use and create an account if you haven't already.
 3. Download the dataset files. The project specifically requires yelp_academic_dataset_business.json, yelp_academic_dataset_review.json, yelp_academic_dataset_user.json, yelp_academic_dataset_checkin.json, and yelp_academic_dataset_tip.json.
-4. Place the downloaded files in a directory accessible to the script, as specified by the <folder_path> argument when running the recommendation system.
+4. Place the downloaded files in a directory accessible to the script, as specified by the <folder_path> argument when running the recommender system.
 
 ## Requirements
 
@@ -47,7 +47,7 @@ The Yelp Open Dataset is used in this project, providing a rich set of data incl
 
 ## Running the Code
 
-To execute the hybrid recommendation system, use the following command:
+To execute the hybrid recommender system, use the following command:
 
 ```console
 spark-submit HybridYelpRecommender.py <folder_path> <test_file_name> <output_file_name>
