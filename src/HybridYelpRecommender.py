@@ -1,6 +1,6 @@
 """
 Method Description:
-    This hybrid recommendation model predicts Yelp Ratings of Businesses by User's Reviews.
+    This hybrid recommender system predicts Yelp Ratings of Businesses by User's Reviews.
 
 Error Distribution:
     >=0 and <1: 102657
