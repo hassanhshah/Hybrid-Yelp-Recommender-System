@@ -1,4 +1,4 @@
-# Hybrid Recommendation Model for Yelp Ratings
+# Hybrid Recommender System for Yelp Ratings
 
 ## Description
 
@@ -50,7 +50,7 @@ The Yelp Open Dataset is used in this project, providing a rich set of data incl
 To execute the hybrid recommendation system, use the following command:
 
 ```console
-spark-submit HybridRecommendationSystem.py <folder_path> <test_file_name> <output_file_name>
+spark-submit HybridYelpRecommender.py <folder_path> <test_file_name> <output_file_name>
 ```
 
 ### Parameters:
